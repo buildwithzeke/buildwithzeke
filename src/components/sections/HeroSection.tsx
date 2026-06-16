@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 
-export function HeroSection() {
+export default function HeroSection() {
   return (
     <section id="home" className="section-grid min-h-[680px] items-center pb-10 pt-14 md:pt-20">
       <div className="relative z-10 max-w-xl">

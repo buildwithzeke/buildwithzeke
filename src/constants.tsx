@@ -67,3 +67,26 @@ export const mentorship: [string, string, string][] = [
   ["Up", "Career Growth", "Get support, clarity, and direction."],
   ["#", "Community Access", "Join a community of passionate learners."],
 ];
+
+export const handles: { name: string, link: string, icon: string }[] = [
+  {
+    name: "linkedin",
+    link: "https://www.linkedin.com/in/buildwithzeke/",
+    icon: "mdi:linkedin"
+  },
+  {
+    name: "x",
+    link: "https://x.com/buildwithzeke",
+    icon: "ri:twitter-x-fill"
+  },
+  {
+    name: "instagram",
+    link: "https://www.instagram.com/buildwithzeke/",
+    icon: "mdi:instagram"
+  },
+  {
+    name: "github",
+    link: "https://github.com/buildwithzeke",
+    icon: "mdi:github"
+  },
+]

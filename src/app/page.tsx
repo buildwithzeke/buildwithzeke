@@ -8,10 +8,13 @@ import { useState } from "react";
 import { impactCards, journey, mentorship, sections, work } from "@/constants";
 
 
-//layoutcomponents
+//components
 import SiteHeader from "@/components/SiteHeader";
-import { HeroSection } from "@/components/sections/HeroSection";
-import Footer from "@/components/Footer";
+import HeroSection from "@/components/sections/HeroSection";
+import Footer from "@/components/layout/Footer";
+import ContactSection from "@/components/sections/ContactSection";
+import BuildTogetherSection from "@/components/sections/BuildTogetherSection";
+import FeedTrigger from "@/components/FeedTrigger";
 
 
 
@@ -24,54 +27,25 @@ export default function Home() {
       data-theme={theme}
       className="min-h-screen overflow-hidden bg-[var(--bg)] text-[var(--text)] transition-colors duration-500"
     >
-      <ThemeSwitch theme={theme} onThemeChange={setTheme} />
       <div className="relative">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_15%_8%,rgba(0,102,255,.22),transparent_28%),radial-gradient(circle_at_88%_12%,rgba(0,226,197,.2),transparent_25%),radial-gradient(circle_at_90%_72%,rgba(0,102,255,.12),transparent_28%)]" />
-          <div className="min-w-0 flex-1 border-x border-[var(--line)] bg-[var(--surface)] shadow-2xl shadow-black/20">
-            <SiteHeader />
-            <HeroSection />
-            {/* <StorySection />
-            <ImpactSection />
-            <JourneySection />
-            <WorkSection />
-            <MentorshipSection />
-            <BuildTogetherSection />
-            <ContactSection /> */}
-            <Footer />
-          </div>
+        <div className="min-w-0 flex-1 border-x border-[var(--line)] bg-[var(--surface)] shadow-2xl shadow-black/20">
+          <SiteHeader theme={theme} onThemeChange={setTheme} />
+          <HeroSection />
+          {/* <StorySection /> */}
+          {/* <ImpactSection /> */}
+          {/* <JourneySection /> */}
+          {/* <WorkSection /> */}
+          {/* <MentorshipSection /> */}
+          <BuildTogetherSection />
+          <ContactSection />
+          <FeedTrigger />
+          <Footer />
+        </div>
       </div>
     </main>
   );
 }
-
-function ThemeSwitch({
-  theme,
-  onThemeChange,
-}: {
-  theme: "dark" | "light";
-  onThemeChange: (theme: "dark" | "light") => void;
-}) {
-  return (
-    <div className="fixed right-4 top-4 z-50 flex rounded-md border border-[var(--line)] bg-[var(--panel)] p-1 shadow-xl backdrop-blur">
-      {(["dark", "light"] as const).map((mode) => (
-        <button
-          key={mode}
-          type="button"
-          onClick={() => onThemeChange(mode)}
-          className={`rounded px-3 py-2 text-xs font-bold uppercase tracking-[.12em] transition ${
-            theme === mode
-              ? "bg-gradient-to-r from-[#0e5cff] to-[#20e0b0] text-white"
-              : "text-[var(--muted)] hover:text-[var(--text)]"
-          }`}
-        >
-          {mode}
-        </button>
-      ))}
-    </div>
-  );
-}
-
-
 
 
 // function StorySection() {
@@ -209,67 +183,9 @@ function ThemeSwitch({
 //   );
 // }
 
-// function BuildTogetherSection() {
-//   return (
-//     <section className="section-grid border-t border-[var(--line)] py-12">
-//       <div>
-//         <p className="eyebrow">Let&apos;s Work Together</p>
-//         <h2 className="section-title">I Help You Build, Solve & Grow Digitally</h2>
-//         <ul className="mt-6 grid gap-3 text-sm font-semibold sm:grid-cols-2">
-//           {["Website Design", "Developer Training", "Business Websites", "Technical Guidance", "Software Solutions"].map((item) => (
-//             <li key={item} className="flex items-center gap-2">
-//               <span className="text-[var(--accent)]">&#10003;</span>
-//               {item}
-//             </li>
-//           ))}
-//         </ul>
-//         <a href="#connect" className="btn-primary mt-7">
-//           Start a Project <span>&rarr;</span>
-//         </a>
-//       </div>
-//       <Image
-//         src="/brand/desk-brand.png"
-//         alt="DEVZEKE branded laptop workspace"
-//         width={305}
-//         height={160}
-//         className="h-full min-h-64 w-full rounded-lg border border-[var(--line)] object-cover"
-//       />
-//     </section>
-//   );
-// }
 
-// function ContactSection() {
-//   return (
-//     <section id="connect" className="grid gap-8 border-t border-[var(--line)] px-5 py-12 md:grid-cols-[.9fr_1.2fr_.9fr] md:px-12">
-//       <div>
-//         <h2 className="section-title text-3xl">Let&apos;s Build Something Amazing Together</h2>
-//       </div>
-//       <form className="space-y-3">
-//         <input className="field" placeholder="Your Name" />
-//         <input className="field" placeholder="Your Email" />
-//         <textarea className="field min-h-28 resize-none" placeholder="What do you need help with?" />
-//         <button className="btn-primary" type="button">
-//           Send Message <span>&rarr;</span>
-//         </button>
-//       </form>
-//       <div className="space-y-4">
-//         {["ayebidunezekiel@gmail.com", "www.buildwithzeke.com", "@buildwithzeke"].map((item, index) => (
-//           <p key={item} className="flex items-center gap-3 font-semibold">
-//             <span className="icon-ring h-9 w-9 text-xs">{["@", "www", "f"][index]}</span>
-//             {item}
-//           </p>
-//         ))}
-//         <div className="flex flex-wrap gap-3 pt-3">
-//           {["in", "X", "ig", "yt", "gh"].map((item) => (
-//             <span key={item} className="icon-ring h-9 w-9 text-xs">
-//               {item}
-//             </span>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
+
+
 
 // function CenteredHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
 //   return (
