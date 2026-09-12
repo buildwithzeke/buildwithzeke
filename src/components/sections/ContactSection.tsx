@@ -21,6 +21,7 @@ export default function ContactSection() {
                         {item.value}
                     </p>
                 ))}
+
                 <div className="flex flex-wrap gap-3 pt-3 ml-15">
                     {handles.map((item, index) => (
                         <a key={index} href={item.link} target="_blank" className="icon-ring h-9 w-9 text-xs">
