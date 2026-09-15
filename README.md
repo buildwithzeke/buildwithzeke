@@ -1,3 +1,343 @@
+# Ayebidun Ezekiel Oluwaseyi
+
+### Software Engineer · Full-Stack Product Builder · SaaS Builder · Technical Educator
+
+I build **production-ready software products and digital systems that solve real-world problems**.
+
+I'm a Full-Stack Software Engineer from Nigeria with experience building across the **frontend, backend, databases, APIs, authentication, integrations, and deployment** layers of modern web applications.
+
+My work sits at the intersection of **engineering, product thinking, and education**.
+
+> **Build. Solve. Empower.**
+
+---
+
+### 👨🏾‍💻 What I Do
+
+* 🏗️ Design and build full-stack applications
+* 🚀 Develop SaaS and digital products from idea to production
+* 🔌 Design and integrate REST APIs and third-party services
+* 🗄️ Model relational and NoSQL databases
+* 🔐 Build authentication, authorization, and role-based systems
+* 💳 Integrate payments and transaction workflows
+* 🧩 Design business and enterprise workflows
+* ☁️ Deploy and maintain production applications
+* 📚 Write technical documentation and developer resources
+* 👨🏾‍🏫 Teach, mentor, and help developers become practical engineers
+
+I enjoy working on problems where **software needs to reflect how a real business or community actually operates**.
+
+---
+
+## 🧰 Core Technologies
+
+**Languages**
+
+`JavaScript` `TypeScript` `Python` `Java` `C`
+
+**Frontend**
+
+`React` `Next.js` `Vite` `Tailwind CSS` `HTML` `CSS`
+
+**Backend**
+
+`Node.js` `Express` `Django` `REST APIs`
+
+**Databases**
+
+`PostgreSQL` `MongoDB` `MySQL` `Prisma` `Mongoose`
+
+**Engineering**
+
+`Git` `GitHub` `JWT` `OAuth` `API Integration` `RBAC` `Validation` `Deployment`
+
+**Platforms & Services**
+
+`Vercel` `Supabase` `Paystack` `Leaflet` `Firebase`
+
+---
+
+# 🚀 Selected Work
+
+## ⛽ FuelLex
+
+### Community-driven fuel intelligence platform for Nigeria
+
+**FuelLex** helps drivers find nearby fuel stations, compare fuel prices, check availability, and contribute updated pricing information.
+
+**Engineering highlights**
+
+* Interactive geospatial mapping
+* REST API architecture
+* JWT authentication
+* Role-based authorization
+* PostgreSQL data modeling
+* Prisma ORM
+* Input validation with Zod
+* Community-generated data
+* Responsive application architecture
+* Technical system documentation
+* Production deployment
+
+**Stack**
+
+`React 19` · `Vite` · `Tailwind CSS` · `React Router` · `Leaflet` · `Node.js` · `Express 5` · `PostgreSQL` · `Supabase` · `Prisma` · `JWT` · `Zod`
+
+🔗 [Live Application](https://fuellex.vercel.app)
+🔗 [GitHub Repository](https://github.com/buildwithzeke/fuellex)
+
+---
+
+## 💳 Payzeker
+
+### Digital task & rewards platform
+
+I built **Payzeker** as a digital platform connecting users with task-based earning opportunities.
+
+The product involves workflows around:
+
+* User registration and authentication
+* Task management
+* User earnings
+* Wallet balances
+* Subscriptions
+* Referral systems
+* Payment processing
+* Administrative workflows
+* User dashboards
+
+**Stack**
+
+`Next.js` · `TypeScript` · `MongoDB` · `Mongoose` · `Server Actions` · `JWT`
+
+🔗 [payzeker.com](https://payzeker.com)
+
+---
+
+## ✈️ GetMyTrip
+
+### Travel booking platform
+
+Contributed to a travel technology platform covering:
+
+* ✈️ Flight booking
+* 🏨 Hotel booking
+* 🚗 Car rental
+
+The platform uses an API-driven architecture to connect the frontend experience with existing travel services and booking infrastructure.
+
+**Focus areas**
+
+`Next.js` · `TypeScript` · `Node.js` · `MongoDB` · `API Integration` · `Authentication` · `Booking Workflows`
+
+---
+
+## 🏢 Enterprise Service & Inventory Systems
+
+I work on business software designed to digitize operational workflows in enterprise environments.
+
+Areas include:
+
+* Customer management
+* Vehicle management
+* Service operations
+* Workshop workflows
+* Job cards
+* Spare-parts inventory
+* Part issuance and returns
+* Inter-branch stock transfers
+* Purchase requests
+* Role-based access control
+* Administration and reporting
+
+The goal is not simply to replace an old system with a new UI.
+
+It is to **understand the underlying business process and build software that models it correctly**.
+
+---
+
+# 🧠 How I Think About Software
+
+I believe strong software engineering is more than knowing frameworks.
+
+```text
+              REAL-WORLD PROBLEM
+                      │
+                      ▼
+              Understand the Domain
+                      │
+                      ▼
+                Design the System
+                      │
+          ┌───────────┴───────────┐
+          ▼                       ▼
+       Frontend                Backend
+          │                       │
+          └───────────┬───────────┘
+                      ▼
+                   Database
+                      │
+                      ▼
+             Integrations / APIs
+                      │
+                      ▼
+                  Testing
+                      │
+                      ▼
+                 Deployment
+                      │
+                      ▼
+              Measure & Improve
+```
+
+I care about:
+
+**Maintainability · Scalability · Security · Developer Experience · User Experience · Business Logic**
+
+---
+
+# 👨🏾‍🏫 Engineering + Education
+
+Software development is also something I teach.
+
+I've worked as a developer instructor, faculty lead, mentor, and technical educator.
+
+Through **Codeneacademy** and other mentoring work, I help developers move beyond tutorials and start thinking about:
+
+* Architecture
+* Problem solving
+* Debugging
+* APIs
+* Databases
+* Git & GitHub
+* Project structure
+* Software engineering practices
+* Building production-oriented applications
+
+I believe the goal of learning to code isn't simply:
+
+> *"I know how to write code."*
+
+It is:
+
+> **"I can take a problem and turn it into a reliable software solution."**
+
+---
+
+# 🌍 Community & Open Source
+
+I'm interested in contributing to developer communities and open-source projects while learning from engineers around the world.
+
+I've participated in initiatives and communities including:
+
+* **NITDA 3MTT Nigeria**
+* **Google developer communities**
+* **Hacktoberfest**
+* Developer mentorship communities
+* Open-source projects
+* Technical education communities
+
+My recent **FuelLex** project was completed as a capstone within the NITDA 3MTT program and gave me the opportunity to apply full-stack engineering beyond frontend development — including API design, authentication, database architecture, geospatial functionality, validation, deployment, and technical documentation.
+
+---
+
+# 🎯 Current Focus
+
+I'm currently deepening my capabilities in:
+
+* 🏗️ Software architecture
+* 🌐 Distributed and scalable systems
+* ☁️ Cloud engineering
+* 🤖 AI-powered applications
+* 💳 Fintech infrastructure
+* 🚀 SaaS product development
+* 🔓 Open-source engineering
+* 🧠 Developer education
+
+I'm particularly interested in opportunities where I can work on **meaningful technical problems, collaborate with strong engineering teams, and build products used by real people**.
+
+---
+
+# 🤝 Open To
+
+I'm open to connecting around:
+
+**International Engineering Opportunities**
+
+Remote and global software engineering roles where I can contribute to product development and system architecture.
+
+**Technical Collaboration**
+
+Building products, APIs, developer tools, SaaS platforms, and open-source projects.
+
+**Startups**
+
+Working with founders and teams turning ambitious ideas into reliable products.
+
+**Developer Education**
+
+Mentorship, technical training, workshops, speaking, and developer communities.
+
+---
+
+# 📫 Connect
+
+<p align="left">
+  <a href="https://ayebidunezekiel.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/buildwithzeke">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Ezekiel8807">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://x.com/AyebidunEzekiel">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+</p>
+
+---
+
+# 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ezekiel8807&show_icons=true&hide_border=true&count_private=true" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ezekiel8807&hide_border=true" height="170" />
+</p>
+
+---
+
+# ⚡ A Little More About Me
+
+```text
+Software Engineer
+        +
+Product Builder
+        +
+SaaS Founder
+        +
+Technical Educator
+        =
+DevZeke
+```
+
+I don't want to spend my career only **writing features**.
+
+I want to understand the problem, design the system, build the product, teach what I learn, and create technology that has measurable impact.
+
+---
+
+<div align="center">
+
+## Build. Solve. Empower.
+
+### Building useful technology from Nigeria for the world. 🌍
+
+</div>
+
+
+
 ![portfolio_image](public/image/portfolio.png)
 
 # Ayebidun Ezekiel Oluwaseyi
